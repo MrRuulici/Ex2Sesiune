@@ -7,6 +7,7 @@ namespace Ex2Sesiune
         static void Main(string[] args)
         {
             Triunghi[] triunghiuri = new Triunghi[] { new Triunghi(new Point(1, 1), new Point(2, 2), new Point(3, 3)) };
+            GeometryUtils.GetArea();
         }
     }
 }
